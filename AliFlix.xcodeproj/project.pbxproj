@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47F672E425D51C8C00D00375 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F672E325D51C8C00D00375 /* AppDelegate.swift */; };
+		47F672E625D51C8C00D00375 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F672E525D51C8C00D00375 /* SceneDelegate.swift */; };
+		47F672E825D51C8C00D00375 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F672E725D51C8C00D00375 /* ViewController.swift */; };
+		47F672EB25D51C8C00D00375 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47F672E925D51C8C00D00375 /* Main.storyboard */; };
+		47F672ED25D51C9000D00375 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47F672EC25D51C9000D00375 /* Assets.xcassets */; };
+		47F672F025D51C9000D00375 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47F672EE25D51C9000D00375 /* LaunchScreen.storyboard */; };
+		47F672FB25D51C9100D00375 /* AliFlixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F672FA25D51C9100D00375 /* AliFlixTests.swift */; };
+		47F6730625D51C9100D00375 /* AliFlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F6730525D51C9100D00375 /* AliFlixUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47F672F725D51C9100D00375 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47F672D825D51C8C00D00375 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47F672DF25D51C8C00D00375;
+			remoteInfo = AliFlix;
+		};
+		47F6730225D51C9100D00375 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47F672D825D51C8C00D00375 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47F672DF25D51C8C00D00375;
+			remoteInfo = AliFlix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47F672E025D51C8C00D00375 /* AliFlix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AliFlix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F672E325D51C8C00D00375 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47F672E525D51C8C00D00375 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		47F672E725D51C8C00D00375 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47F672EA25D51C8C00D00375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47F672EC25D51C9000D00375 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47F672EF25D51C9000D00375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47F672F125D51C9000D00375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47F672F625D51C9100D00375 /* AliFlixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AliFlixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F672FA25D51C9100D00375 /* AliFlixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliFlixTests.swift; sourceTree = "<group>"; };
+		47F672FC25D51C9100D00375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47F6730125D51C9100D00375 /* AliFlixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AliFlixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F6730525D51C9100D00375 /* AliFlixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliFlixUITests.swift; sourceTree = "<group>"; };
+		47F6730725D51C9100D00375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47F672DD25D51C8C00D00375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F672F325D51C9100D00375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F672FE25D51C9100D00375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47F672D725D51C8C00D00375 = {
+			isa = PBXGroup;
+			children = (
+				47F672E225D51C8C00D00375 /* AliFlix */,
+				47F672F925D51C9100D00375 /* AliFlixTests */,
+				47F6730425D51C9100D00375 /* AliFlixUITests */,
+				47F672E125D51C8C00D00375 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47F672E125D51C8C00D00375 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47F672E025D51C8C00D00375 /* AliFlix.app */,
+				47F672F625D51C9100D00375 /* AliFlixTests.xctest */,
+				47F6730125D51C9100D00375 /* AliFlixUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47F672E225D51C8C00D00375 /* AliFlix */ = {
+			isa = PBXGroup;
+			children = (
+				47F672E325D51C8C00D00375 /* AppDelegate.swift */,
+				47F672E525D51C8C00D00375 /* SceneDelegate.swift */,
+				47F672E725D51C8C00D00375 /* ViewController.swift */,
+				47F672E925D51C8C00D00375 /* Main.storyboard */,
+				47F672EC25D51C9000D00375 /* Assets.xcassets */,
+				47F672EE25D51C9000D00375 /* LaunchScreen.storyboard */,
+				47F672F125D51C9000D00375 /* Info.plist */,
+			);
+			path = AliFlix;
+			sourceTree = "<group>";
+		};
+		47F672F925D51C9100D00375 /* AliFlixTests */ = {
+			isa = PBXGroup;
+			children = (
+				47F672FA25D51C9100D00375 /* AliFlixTests.swift */,
+				47F672FC25D51C9100D00375 /* Info.plist */,
+			);
+			path = AliFlixTests;
+			sourceTree = "<group>";
+		};
+		47F6730425D51C9100D00375 /* AliFlixUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47F6730525D51C9100D00375 /* AliFlixUITests.swift */,
+				47F6730725D51C9100D00375 /* Info.plist */,
+			);
+			path = AliFlixUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47F672DF25D51C8C00D00375 /* AliFlix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47F6730A25D51C9100D00375 /* Build configuration list for PBXNativeTarget "AliFlix" */;
+			buildPhases = (
+				47F672DC25D51C8C00D00375 /* Sources */,
+				47F672DD25D51C8C00D00375 /* Frameworks */,
+				47F672DE25D51C8C00D00375 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AliFlix;
+			productName = AliFlix;
+			productReference = 47F672E025D51C8C00D00375 /* AliFlix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47F672F525D51C9100D00375 /* AliFlixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47F6730D25D51C9100D00375 /* Build configuration list for PBXNativeTarget "AliFlixTests" */;
+			buildPhases = (
+				47F672F225D51C9100D00375 /* Sources */,
+				47F672F325D51C9100D00375 /* Frameworks */,
+				47F672F425D51C9100D00375 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47F672F825D51C9100D00375 /* PBXTargetDependency */,
+			);
+			name = AliFlixTests;
+			productName = AliFlixTests;
+			productReference = 47F672F625D51C9100D00375 /* AliFlixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47F6730025D51C9100D00375 /* AliFlixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47F6731025D51C9100D00375 /* Build configuration list for PBXNativeTarget "AliFlixUITests" */;
+			buildPhases = (
+				47F672FD25D51C9100D00375 /* Sources */,
+				47F672FE25D51C9100D00375 /* Frameworks */,
+				47F672FF25D51C9100D00375 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47F6730325D51C9100D00375 /* PBXTargetDependency */,
+			);
+			name = AliFlixUITests;
+			productName = AliFlixUITests;
+			productReference = 47F6730125D51C9100D00375 /* AliFlixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47F672D825D51C8C00D00375 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					47F672DF25D51C8C00D00375 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					47F672F525D51C9100D00375 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 47F672DF25D51C8C00D00375;
+					};
+					47F6730025D51C9100D00375 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 47F672DF25D51C8C00D00375;
+					};
+				};
+			};
+			buildConfigurationList = 47F672DB25D51C8C00D00375 /* Build configuration list for PBXProject "AliFlix" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47F672D725D51C8C00D00375;
+			productRefGroup = 47F672E125D51C8C00D00375 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47F672DF25D51C8C00D00375 /* AliFlix */,
+				47F672F525D51C9100D00375 /* AliFlixTests */,
+				47F6730025D51C9100D00375 /* AliFlixUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47F672DE25D51C8C00D00375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F672F025D51C9000D00375 /* LaunchScreen.storyboard in Resources */,
+				47F672ED25D51C9000D00375 /* Assets.xcassets in Resources */,
+				47F672EB25D51C8C00D00375 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F672F425D51C9100D00375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F672FF25D51C9100D00375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47F672DC25D51C8C00D00375 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F672E825D51C8C00D00375 /* ViewController.swift in Sources */,
+				47F672E425D51C8C00D00375 /* AppDelegate.swift in Sources */,
+				47F672E625D51C8C00D00375 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F672F225D51C9100D00375 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F672FB25D51C9100D00375 /* AliFlixTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F672FD25D51C9100D00375 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F6730625D51C9100D00375 /* AliFlixUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47F672F825D51C9100D00375 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47F672DF25D51C8C00D00375 /* AliFlix */;
+			targetProxy = 47F672F725D51C9100D00375 /* PBXContainerItemProxy */;
+		};
+		47F6730325D51C9100D00375 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47F672DF25D51C8C00D00375 /* AliFlix */;
+			targetProxy = 47F6730225D51C9100D00375 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47F672E925D51C8C00D00375 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47F672EA25D51C8C00D00375 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47F672EE25D51C9000D00375 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47F672EF25D51C9000D00375 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47F6730825D51C9100D00375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47F6730925D51C9100D00375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47F6730B25D51C9100D00375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U8KKKYWXF4;
+				INFOPLIST_FILE = AliFlix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Alimama.AliFlix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47F6730C25D51C9100D00375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U8KKKYWXF4;
+				INFOPLIST_FILE = AliFlix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Alimama.AliFlix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		47F6730E25D51C9100D00375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U8KKKYWXF4;
+				INFOPLIST_FILE = AliFlixTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Alimama.AliFlixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AliFlix.app/AliFlix";
+			};
+			name = Debug;
+		};
+		47F6730F25D51C9100D00375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U8KKKYWXF4;
+				INFOPLIST_FILE = AliFlixTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Alimama.AliFlixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AliFlix.app/AliFlix";
+			};
+			name = Release;
+		};
+		47F6731125D51C9100D00375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U8KKKYWXF4;
+				INFOPLIST_FILE = AliFlixUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Alimama.AliFlixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AliFlix;
+			};
+			name = Debug;
+		};
+		47F6731225D51C9100D00375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U8KKKYWXF4;
+				INFOPLIST_FILE = AliFlixUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Alimama.AliFlixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AliFlix;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47F672DB25D51C8C00D00375 /* Build configuration list for PBXProject "AliFlix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F6730825D51C9100D00375 /* Debug */,
+				47F6730925D51C9100D00375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47F6730A25D51C9100D00375 /* Build configuration list for PBXNativeTarget "AliFlix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F6730B25D51C9100D00375 /* Debug */,
+				47F6730C25D51C9100D00375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47F6730D25D51C9100D00375 /* Build configuration list for PBXNativeTarget "AliFlixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F6730E25D51C9100D00375 /* Debug */,
+				47F6730F25D51C9100D00375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47F6731025D51C9100D00375 /* Build configuration list for PBXNativeTarget "AliFlixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F6731125D51C9100D00375 /* Debug */,
+				47F6731225D51C9100D00375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47F672D825D51C8C00D00375 /* Project object */;
+}

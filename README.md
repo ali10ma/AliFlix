@@ -16,5 +16,5 @@ AliFlix is an app that allows users to browse movies from the [The Movie Databas
 
 ### App Walkthrough GIF
 
-<img src="http://g.recordit.co/ef81M0F8CI.gif" width=250><br>
+<img src="http://g.recordit.co/x7KM25BYvt.gif" width=250><br>
 

@@ -3,13 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0394D48A7D3DBD8040A1EE85 /* Pods_AliFlix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DAC652E10A99801E775B064 /* Pods_AliFlix.framework */; };
 		10C868CDC79A5B37A6770270 /* Pods_AliFlixTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24342F0B0E97E24A81F60E86 /* Pods_AliFlixTests.framework */; };
 		35246483B25CADE1175741D3 /* Pods_AliFlix_AliFlixUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0A4FD9BEA7A44F58CCD730 /* Pods_AliFlix_AliFlixUITests.framework */; };
+		47134BDD25D775E80032FF09 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47134BDC25D775E80032FF09 /* MovieDetailsViewController.swift */; };
 		47F672E425D51C8C00D00375 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F672E325D51C8C00D00375 /* AppDelegate.swift */; };
 		47F672E625D51C8C00D00375 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F672E525D51C8C00D00375 /* SceneDelegate.swift */; };
 		47F672EB25D51C8C00D00375 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47F672E925D51C8C00D00375 /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 		1A0A4FD9BEA7A44F58CCD730 /* Pods_AliFlix_AliFlixUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AliFlix_AliFlixUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		24342F0B0E97E24A81F60E86 /* Pods_AliFlixTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AliFlixTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ABC7BC77278598C35817AED /* Pods-AliFlix-AliFlixUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliFlix-AliFlixUITests.release.xcconfig"; path = "Target Support Files/Pods-AliFlix-AliFlixUITests/Pods-AliFlix-AliFlixUITests.release.xcconfig"; sourceTree = "<group>"; };
+		47134BDC25D775E80032FF09 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		47F672E025D51C8C00D00375 /* AliFlix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AliFlix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47F672E325D51C8C00D00375 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47F672E525D51C8C00D00375 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				47F672F125D51C9000D00375 /* Info.plist */,
 				47F6731925D51E6400D00375 /* MoviesViewController.swift */,
 				47F6731E25D5F9A200D00375 /* MovieCell.swift */,
+				47134BDC25D775E80032FF09 /* MovieDetailsViewController.swift */,
 			);
 			path = AliFlix;
 			sourceTree = "<group>";
@@ -158,7 +161,6 @@
 				0C8269EA5ABA0C73BF41D191 /* Pods-AliFlixTests.debug.xcconfig */,
 				7B70760656C6B950052685E7 /* Pods-AliFlixTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -410,6 +412,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47134BDD25D775E80032FF09 /* MovieDetailsViewController.swift in Sources */,
 				47F672E425D51C8C00D00375 /* AppDelegate.swift in Sources */,
 				47F672E625D51C8C00D00375 /* SceneDelegate.swift in Sources */,
 				47F6731F25D5F9A200D00375 /* MovieCell.swift in Sources */,

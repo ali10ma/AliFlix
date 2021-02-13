@@ -28,8 +28,6 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         
         
         // Do any additional setup after loading the view.
-        print("Hello")
-        
         let url = URL(string: "https://api.themoviedb.org/3/movie/now_playing?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed")!
         let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 10)
         let session = URLSession(configuration: .default, delegate: nil, delegateQueue: OperationQueue.main)
@@ -49,7 +47,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
             
             self.tableView.reloadData()//its gonna call the function/data again!!
             
-            print(dataDictionary)
+           // print(dataDictionary)
 
               // TODO: Get the array of movies
               // TODO: Store the movies in a property to use elsewhere
@@ -92,14 +90,30 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
     }
     
 
-    /*
+
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+        
+        print("Loading up the details screen")
+        
+        
+        //Find the selected Movie
+        let cell = sender as! UITableViewCell
+        let indexPath = tableView.indexPath(for:
+            cell)!
+        let movie = movies[indexPath.row]
+        
+        //Pass selected movie to the details view controller
+        let detailsViewController = segue.destination as! MovieDetailsViewController
+        detailsViewController.movie = movie
+        
+        //Now the selected cell will not be highlighted when return back to the main screen:
+        tableView.deselectRow(at: indexPath,
+                              animated: true)
     }
-    */
 
 }

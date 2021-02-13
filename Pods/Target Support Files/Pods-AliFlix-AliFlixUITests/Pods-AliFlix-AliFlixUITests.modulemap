@@ -1,0 +1,6 @@
+framework module Pods_AliFlix_AliFlixUITests {
+  umbrella header "Pods-AliFlix-AliFlixUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

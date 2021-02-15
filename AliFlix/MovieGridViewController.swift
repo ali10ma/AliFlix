@@ -21,6 +21,19 @@ class MovieGridViewController: UIViewController, UICollectionViewDataSource, UIC
         collectionView.delegate = self
         collectionView.dataSource = self
 
+        //Create some spaces between images in Grid
+        let layout = collectionView.collectionViewLayout as! UICollectionViewFlowLayout
+        //Space b/w top and bottom Image
+        layout.minimumLineSpacing = 0
+        
+        //Spacing between items LHS & RHS
+        layout.minimumInteritemSpacing = 0
+        
+        //Affects #Image per row
+        let width = (view.frame.size.width) / 3
+        layout.itemSize = CGSize(width: width, height: width*3/2)
+        
+        
         // Do any additional setup after loading the view.
         //Replace url for superhero related movies
         // let url = URL(string: //"https://api.themoviedb.org/3/movie/now_playing?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed")!
